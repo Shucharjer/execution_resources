@@ -16,7 +16,7 @@ public:
 
   ~normthread() {
     loop_.finish();
-    thread_.join
+    thread_.join();
   }
 
   auto get_scheduler() noexcept { return loop_.get_scheduler(); }
