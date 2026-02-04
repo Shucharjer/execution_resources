@@ -1,3 +1,4 @@
+// IWYU pragma: private, include <execution_resources.hpp>
 #pragma once
 #include "execution.hpp" // IWYU pragma: keep
 #include <thread>

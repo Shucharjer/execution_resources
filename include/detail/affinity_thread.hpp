@@ -1,4 +1,4 @@
-// IWYU pragma: private, include <neutron/execution_resources.hpp>
+// IWYU pragma: private, include <execution_resources.hpp>
 #pragma once
 #include <cstdint>
 #include <thread>
