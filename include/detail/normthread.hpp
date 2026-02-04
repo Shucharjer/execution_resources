@@ -16,7 +16,7 @@ public:
 
   ~normthread() {
     loop_.finish();
-    // jthread.join
+    thread_.join
   }
 
   auto get_scheduler() noexcept { return loop_.get_scheduler(); }
@@ -28,7 +28,7 @@ public:
 
 private:
   execution::run_loop loop_;
-  std::jthread thread_;
+  std::thread thread_;
 };
 
 } // namespace neutron
